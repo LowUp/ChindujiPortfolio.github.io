@@ -1,0 +1,131 @@
+<! DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chinduji's portfolio website</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/bf90372357.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+         <!-- Header -->
+        <header>
+            <div class="logo">
+                <img src="./images/Sans titre.png" alt="logo" width="200px" height="100%">
+            </div>
+            <button class="nav-toggle" arial-label="toggle_navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#service" class="nav__link">My skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong > Emereole Chinduji </strong>
+            </h1>
+            <p class="section__title section__subtitle--intro"> Software developer</p>
+            <img src="./images/Capture.PNG" alt="a picture of Chinduji" class="intro__img">
+        </section>
+
+        <!-- What I do-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+
+                <div class="service">
+                    <h3>Software development</h3>
+                    <p>Strong knowledge and skills in software development. Realized many projects involving the use of programming languages such as Java, C#, Sql. 
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Mobile development</h3>
+                    <p>Capable of creating and adding new functionalities to a mobile app. Know how to use languages such as Java or React native.</p>
+                </div>
+
+                <div class="service">
+                    <h3> Web development </h3>
+                    <p>Good knowledge on how the web works in general. Can create an entire website from scratch and add a variety of different functionalities. Masters programming languages such as, ReactJS, JavaScript.</p>
+                </div>           
+            </div>
+            <a href="#work" class="btn">See my work</a> 
+        </section>
+
+        <!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"> Software developer based in Dreux, France</p>
+
+            <div class="about-me__body">
+                <p>Graduated student studying BSc Computing with a wide variety of skills in the computing industry which includes, project development and management, programming skills including Java, JS, PHP, CSS, database management, networking, and security.
+                    In my own time, I have independently developed and managed my own websites. I also help a charity named Autism All Starts to build their mobile app</p>
+                <p>I enjoy working autonomously as well as a group member. My participation in a group is very active and often leads to the motivation of other members of the group. 
+                    I have a clear, keen, and analytical approach when it comes to problem solving. I am constantly learning and happy to confront new challenges.</p>
+            </div>
+
+            <img src="./images/pexels-pixabay-36717.jpg" class="about-me__img">
+        </section>
+
+        <!-- My work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work"> My projects: </p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 0 -->
+                <a href="#" class="portfolio__item">
+                <img src="./images/capsule_616x353.jpg" alt="Project 1" class="portfolio__img">                                        
+                <p class="section__subtitle section__subtitle--work"> Supermarket simulator </p> 
+                </a>
+                  
+            
+                <!-- Portfolio item 1 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./images/Image1.png" alt="Project 2" class="portfolio__img">
+                    <p class="section__subtitle section__subtitle--work"> Pet fostering app </p> 
+                </a>
+            
+                <!-- Portfolio item 2 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./images/f2.PNG" alt="Project 3" class="portfolio__img">
+                    <p class="section__subtitle section__subtitle--work"> E-commerce website </p>
+                </a>
+           
+                <!-- Portfolio item 3 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./images/SQL.png" alt="Project 4" class="portfolio__img">
+                    <p class="section__subtitle section__subtitle--work"> Subscriber manager </p>
+                </a>
+
+                <!-- Portfolio item 4 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./images/images.png" alt="Project 5" class="portfolio__img">
+                    <p class="section__subtitle section__subtitle--work"> Course manager </p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="credo05@hotmail.fr" class="footer__link">credo05@hotmail.fr</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/LowUp"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/chinduji-emereole-24400a166"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </footer>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
