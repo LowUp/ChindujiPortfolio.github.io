@@ -15,6 +15,9 @@
     --ff-primary: 'Poppins', sans-serif;
     --ff-secondary: 'Source Sans Pro', monospace;
 
+    --bc-primary: rgb(255, 255, 255);
+    --bc-secondary: #303030;
+
     -fw-reg: 300;
     --fw-bold: 900;
 
@@ -45,10 +48,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.dark-theme{
+    --bc-primary: #303030;
+    --bc-secondary: rgb(255, 255, 255);
+}
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--bc-primary);
+    color: var(--bc-secondary);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -249,6 +256,15 @@ header {
 .hamburger::after{
     bottom: 6px;
 }
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    right: 80;
+    top: 14;
+}
+
 
 /* Intro section */
 
