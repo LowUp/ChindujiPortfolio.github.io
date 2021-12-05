@@ -436,6 +436,13 @@ header {
 
 }
 
+.programming_language_logo {
+    position: relative;
+    bottom: 83%;
+    left: 75%;
+    width: 20%;
+}
+
 
 /* Footer*/
 
