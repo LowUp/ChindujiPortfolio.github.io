@@ -125,6 +125,7 @@ h1 { font-size: var(--fs-h3); }
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+    /* text-align: center; */
 }
 .section__subtitle--intro,
 .section__subtitle--about {
@@ -138,6 +139,7 @@ h1 { font-size: var(--fs-h3); }
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    /* align-self: center; */
 }
 
 /* Header */
@@ -410,6 +412,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    /* width: fit-content; */
 
 }
 
@@ -431,8 +434,8 @@ header {
 
 .portfolio__img:hover, 
 .portfolio__item:focus .portfolio__img{
-    transform: scale(1.2);
-    opacity: .75;
+    transform: scale(1.1);
+    /* opacity: .75; */
 
 }
 
@@ -490,6 +493,13 @@ padding: .5em;
 
 /* Individual portfolio item styles */
 
+.portfolio-item-individual-freelance{
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 .portfolio-item-individual{
     padding: 0 2em 2em;
     max-width: 1000px;
@@ -499,6 +509,11 @@ padding: .5em;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.portfolio-div {
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 /*------------------------------- Scroll bar  -----------------------------------*/
